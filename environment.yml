@@ -1,0 +1,29 @@
+name: geo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - geopandas
+  - pandas
+  - numpy
+  - matplotlib
+  - shapely
+  - fiona
+  - pyproj
+  - rasterio
+  - pyarrow
+  - scikit-learn
+  - scipy
+  - jupyterlab
+  - ipykernel
+  - psutil
+  - requests
+  - geemap
+  - pip
+  - pip:
+      - earthengine-api
+      - google-api-python-client
+      - google-auth
+      - google-auth-httplib2
+      - google-cloud-storage

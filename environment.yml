@@ -21,6 +21,7 @@ dependencies:
   - requests
   - geemap
   - pip
+  - seaborn
   - pip:
       - earthengine-api
       - google-api-python-client
